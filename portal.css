@@ -1,15 +1,49 @@
-nav{
+/** {
+    border: 1px solid red;
+}*/
+
+body {
+    background-color: #ccc;
+}
+
+a {
     background-color: lightblue;
     color: rgb(71, 69, 69);
     text-decoration: none;
-    padding: 15px;
-    margin: 30px;
+    padding: 10px;
+    margin: 5px;
     text-align: center;
 }
 nav {
     display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    text-align: left; 
+    width: 300px;
+    margin: 10px auto;
+
+}
+a:hover {
+    background-color: darkgray;
+    color:white;
 }
 
 .background {
     background-color: #ccc;
+}
+
+footer p {
+    color: rgb(71, 69, 69);
+    width: 100%;
+    text-align: center;
 }
