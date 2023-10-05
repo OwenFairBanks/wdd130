@@ -2,6 +2,7 @@
     text-align: center;
 }
 
+
 main p  {
     margin: 0 auto;
     text-align: left;
@@ -13,4 +14,8 @@ img {
 }
 footer p {
     text-align: center;
+}
+
+.background{
+    background-color: limegreen;
 }
