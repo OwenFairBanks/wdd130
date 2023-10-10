@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merriweather+Sans&family=Satisfy&display=swap');
 /** {
     border: 1px solid red;
 }*/
 
 body {
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    font-family: "satisfy";
+    padding: 0;
+    margin: 0;
 }
 
 a {
-    background-color: lightblue;
+    background-color: limegreen;
     color: rgb(71, 69, 69);
     text-decoration: none;
     padding: 10px;
@@ -17,24 +21,33 @@ a {
 nav {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 h1 {
     font-size: 2em;
     text-align: center;
+    font-family: "Merriweather Sans";
+    padding-top: 20px;
 }
 img {
     width: 50%;
     display: block;
     margin: 0 auto;
+    border: 3px solid blue;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 p {
-    text-align: left; 
-    width: 300px;
+    text-align: center; 
+    width: 50%;
     margin: 10px auto;
+    box-sizing: border-box;
+    font-family: "Croissant One";
 
 }
 a:hover {
-    background-color: darkgray;
+    background-color: darkgreen;
     color:white;
 }
 
