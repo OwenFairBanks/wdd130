@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merriweather+Sans&family=Satisfy&display=swap');
-/** {
+/* * {
     border: 1px solid red;
-}*/
+} */
 
 body {
     /* background-color: #ccc; */
@@ -44,6 +44,8 @@ p {
     margin: 10px auto;
     box-sizing: border-box;
     font-family: "Croissant One";
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 a:hover {
