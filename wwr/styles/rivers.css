@@ -55,6 +55,60 @@ nav a:hover {
 main section {
     text-align: center;
 }
+.river1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    padding: 10%;
+}
+.images1 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.images2 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.images3 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.river2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    padding: 10%;
+}
+.images4 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.images5 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.images6 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.river3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    padding: 10%;
+}
+.images7 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.images8 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
+.images9 {
+    width: 100%;
+    border: 10px solid #886b54;
+}
 #background {
     height: 600px;
     background-color: #101E10;
@@ -122,17 +176,68 @@ footer p a:hover {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+    .river1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .para1 {
+        grid-row: 1/4;
+    }
+    .images1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .images2 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .images3 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .river2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .para2 {
+        grid-row: 1/4;
+    }
+    .images4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .images5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .images6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .river3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .para3 {
+        grid-row: 1/4;
+    }
+    .images7 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .images8 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .images9 {
+        grid-column: 2/3;
+        grid-row: 3/4;
     }
     footer {
         margin-top: 25px;
