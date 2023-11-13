@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Libre+Baskerville:ital@1&family=Martian+Mono');
+/* * {
+    border: 1px solid red;
+} */
+header {
+    background-color: #4B7F52;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+nav a {
+    text-align: center;
+    color: #96E8BC;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2em;
+    font-family: "Libre Baskerville", "Martian Mono", "Edu Tas Beginner";
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 200px;
+}
