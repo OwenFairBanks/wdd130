@@ -34,3 +34,34 @@ nav a:hover {
 .logo {
     width: 200px;
 }
+body {
+    background-color: black;
+    font-family: "Libre Baskerville", "Martian Mono", "Edu Tas Beginner";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #4B7F52;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #96E8BC;
+}
+footer a:hover {
+    color: white;
+}
+footer p {
+    font-size: 1.2em;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: #96E8BC;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
