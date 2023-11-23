@@ -158,6 +158,7 @@ footer {
 footer a {
     color: #101E10;
     padding-top: 10px;
+    text-decoration: none;
 }
 footer a:hover {
     color: #ece8e1;
