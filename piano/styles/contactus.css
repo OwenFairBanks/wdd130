@@ -143,8 +143,8 @@ footer p {
     padding-top: 20px;
     padding-bottom: 0px;
     color: #96E8BC;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
-footer p a:hover {
+/* footer p a:hover {
     text-decoration: underline;
-}
+} */
