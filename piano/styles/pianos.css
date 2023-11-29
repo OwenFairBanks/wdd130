@@ -2,6 +2,10 @@
 /* * {
     border: 1px solid red;
 } */
+:root {
+    --heading-font: "Libre Baskerville";
+    --paragraph-font: "Edu TAS Beginner";
+}
 header {
     background-color: #4B7F52;
     display: grid;
@@ -50,9 +54,12 @@ footer {
 }
 footer a {
     color: #96E8BC;
+    text-decoration: none;
 }
-footer a:hover {
+footer p a:hover {
     color: white;
+    background-color: black;
+    border-radius: 5px;
 }
 footer p {
     font-size: 1.2em;
@@ -60,6 +67,7 @@ footer p {
     padding-top: 20px;
     padding-bottom: 0px;
     color: #96E8BC;
+    text-decoration: underline;
 }
 footer p a:hover {
     text-decoration: underline;
