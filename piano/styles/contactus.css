@@ -48,7 +48,7 @@ form {
     width: 400px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #4B7F52;
+    border: 5px solid #4B7F52;
     border-radius: 1em;
 }
   
@@ -80,7 +80,7 @@ form {
     box-sizing: border-box;
   
     /* Match form field borders */
-    border: 1px solid #999;
+    border: 2px solid black;
   }
   
   input:focus,
