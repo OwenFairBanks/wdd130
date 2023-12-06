@@ -33,6 +33,8 @@ nav a:hover {
 }
 .logo {
     width: 200px;
+    padding-left: 25px;
+
 }
 body {
     background-color: #96E8BC;
@@ -131,6 +133,9 @@ footer {
 footer a {
     color: #96E8BC;
     text-decoration: none;
+}
+footer p a {
+  padding: 10px;
 }
 footer p a:hover {
   color: white;

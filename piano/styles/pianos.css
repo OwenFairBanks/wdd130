@@ -36,6 +36,7 @@ nav a:hover {
 }
 .logo {
     width: 200px;
+    padding-left: 25px;
 }
 body {
     background-color: #96E8BC;
@@ -50,11 +51,12 @@ body {
 }
 main p {
     font-family: var(--paragraph-font);
+    font-size: 0.9em;
 }
 .content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5%;
+    grid-gap: 2% 5%;
     padding: 0 10%;
     text-align: center;
 }
@@ -62,10 +64,12 @@ main p {
     width: 95%;
     border: 10px solid #4B7F52;
 }
-
+.custom-audio {
+    color: #4B7F52;
+}
 footer {
     background-color: #4B7F52;
-    margin-top: 400px;
+    margin-top: 500px;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -74,6 +78,10 @@ footer {
 footer a {
     color: #96E8BC;
     text-decoration: none;
+    /* padding: 10px; */
+}
+footer p a {
+    padding: 10px;
 }
 footer p a:hover {
     color: white;

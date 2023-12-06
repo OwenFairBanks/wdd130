@@ -39,6 +39,8 @@ nav a:hover {
 }
 .logo {
     width: 200px;
+    padding-left: 25px;
+
 }
 body {
     background-color: #96E8BC;
@@ -151,10 +153,14 @@ footer a {
     color: #96E8BC;
     text-decoration: none;
 }
+footer p a {
+    padding: 10px;
+}
 footer p a:hover {
     color: white;
     background-color: black;
     border-radius: 5px;
+
 }
 footer p {
     font-size: 1.2em;
